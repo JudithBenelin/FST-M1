@@ -1,0 +1,8 @@
+num = int(input("What multiplication table do you need?"))
+if (num == 0):
+    print("Please enter a non-zero number")
+else:
+    for x in range (10):
+        out = int(num * (x+1))
+        print(out)
+    

@@ -1,0 +1,23 @@
+player1 = input("Player1 name: ")
+player2 = input("Player2 name: ")
+hand1 = input(player1 + " rock, paper or scissors go : " ).lower()
+hand2 = input(player2 + " rock, paper or scissors go : " ).lower()
+
+if hand1 == hand2 :
+    print("Go again!")
+elif hand1 == 'rock':
+    if hand2 == 'scissors':
+        print(Player1 + " is the winner!!!")
+    else:
+        print(hand2 + " is the winner!!!")
+elif hand1 == 'scissors':
+    if hand2 == 'rock':
+        print(player2 + " is the winner")
+    else:
+        print(player1 + " is the winner")
+elif hand1 == 'paper':
+    if hand2 == 'rock':
+        print(player1 + " is the winner")
+    else: print(player2 + " is the winner")
+
+
