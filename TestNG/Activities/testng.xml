@@ -1,13 +1,9 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="TestSuite" parallel="classes">
-    <test name="Tests">
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ExampleSuite" >
+    <test name="SuiteTests" >
         <classes>
-            <class name="session9.Activity1"/>
-            <class name="session9.Activity2"/>
-            <class name="session9.Activity3"/>
-            <class name="session9.Activity4"/>
-            <class name="session9.Activity5"/>
-            <class name="session9.Activity6"/>
+            <class name="SuiteExample.DemoOne"/>
+            <class name="SuiteExample.DemoTwo"/>
         </classes>
     </test>
 </suite>
